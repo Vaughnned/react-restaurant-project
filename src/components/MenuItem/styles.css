@@ -1,0 +1,46 @@
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: black;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+}
+
+.menuItem h1 {
+  font-size: 40px;
+}
+
+.price {
+  font-size: 20px;
+}
+
+button {
+  height: 50px;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 150px;
+  width: 300px;
+}
